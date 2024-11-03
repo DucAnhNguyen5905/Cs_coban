@@ -11,11 +11,12 @@ namespace DataProcessing.STRUCT
     public class Student
     {
         public string Name { get; set; }
+  
 
         public DateTime Date { get; set; }
 
         public int GPA { get; set; }
 
-        public string Classification;
+
     }
 }

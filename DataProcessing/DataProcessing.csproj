@@ -78,7 +78,7 @@
     <Compile Include="STRUCT\Student.cs" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\Validate\Common.csproj">
+    <ProjectReference Include="..\..\Validate\Common.csproj">
       <Project>{bda01460-49d5-4509-b04d-af11e71995ba}</Project>
       <Name>Common</Name>
     </ProjectReference>

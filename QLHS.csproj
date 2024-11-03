@@ -83,7 +83,11 @@
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\DataProcessing\DataProcessing.csproj">
+    <ProjectReference Include="..\Validate\Common.csproj">
+      <Project>{bda01460-49d5-4509-b04d-af11e71995ba}</Project>
+      <Name>Common</Name>
+    </ProjectReference>
+    <ProjectReference Include="DataProcessing\DataProcessing.csproj">
       <Project>{7bae84e6-f057-451e-b10c-31304c99be65}</Project>
       <Name>DataProcessing</Name>
     </ProjectReference>
